@@ -21,7 +21,7 @@ public class StandAloneTest
 	public static void main(String[] args) 
 	{
 		String Product_Name = "ADIDAS ORIGINAL";
-		
+		//Changes for CICD
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
