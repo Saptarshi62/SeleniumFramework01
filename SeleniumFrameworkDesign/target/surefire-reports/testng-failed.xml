@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="SeleniumAutomation.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumAutomation.Tests.ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="LoginErrorValidation"/>
+          <include name="TearDown"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Tests.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Order Test(failed)" verbose="0">
+    <classes>
+      <class name="SeleniumAutomation.Tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="OrderHistoryTest"/>
+          <include name="TearDown"/>
+          <include name="SubmitOrder"/>
+        </methods>
+      </class> <!-- SeleniumAutomation.Tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

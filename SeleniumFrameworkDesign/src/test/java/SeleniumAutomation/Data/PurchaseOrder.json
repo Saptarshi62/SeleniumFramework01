@@ -1,0 +1,13 @@
+[
+	{
+		"email" : "pegasus@wolverine.com" ,
+		"password" : "Pegasus007@" ,
+		"product" : "ADIDAS ORIGINAL"
+	},
+	
+	{
+		"email" : "abc@cdf.com" ,
+		"password" : "Abc@cdf123" ,
+		"product" : "IPHONE 13 PRO"
+	}
+]
